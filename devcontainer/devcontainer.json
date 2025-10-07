@@ -10,7 +10,7 @@
     "java.home": "/usr/local/openjdk-21"
   },
   "forwardPorts": [
-    8080
+    25565
   ],
   "postCreateCommand": "java -version",
   "remoteUser": "vscode"
