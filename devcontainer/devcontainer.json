@@ -1,0 +1,17 @@
+{
+  "name": "Java 21 Dev Container",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "21"
+    }
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "java.home": "/usr/local/openjdk-21"
+  },
+  "forwardPorts": [
+    8080
+  ],
+  "postCreateCommand": "java -version",
+  "remoteUser": "vscode"
+}
